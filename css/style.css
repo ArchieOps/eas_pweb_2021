@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Mulish";
+}
+
+.formContainer {
+  margin-right: auto;
+  margin-left: auto;
+  width: 72%;
+  background-color: #ececec;
+  border-radius: 20px;
+  height: auto;
+  padding: 70px;
+}
+
+.formContainerLogin {
+  margin-right: auto;
+  margin-left: auto;
+  width: 600px;
+  background-color: #ececec;
+  border-radius: 20px;
+  height: auto;
+  padding: 70px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  color: #004a74;
+}
+
+h4,
+h5 {
+  text-align: center;
+  /* font-weight: bolder; */
+}
+
+header {
+  background-color: #004a74;
+}
+
+header img {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  margin-left: 5%;
+  width: 20%;
+}
+
+footer {
+  background-color: #004a74;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h4 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+label {
+  font-weight: 900;
+}
+
+.btn-danger {
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: #bf2b16;
+  border-color: #bf2b16;
+}
+
+.btn-primary {
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: #004a74;
+  border-color: #004a74;
+}
+
+.btn-primary:hover {
+  color: whitesmoke;
+  background-color: #f39c12;
+  border-color: #f39c12;
+}
+
+#registerLink {
+  color: #004a74;
+}
+
+#registerLink:hover {
+  color: #f39c12;
+}

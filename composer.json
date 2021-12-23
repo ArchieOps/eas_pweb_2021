@@ -1,0 +1,17 @@
+{
+    "name": "ardo/eas_pweb",
+    "description": "Evaluasi Akhir PWEB A 2021",
+    "authors": [
+        {
+            "name": "ArchieOps",
+            "email": "jonathanleonardo123@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "server": "php -S localhost:8080"
+    },
+    "config": {
+        "process-timeout":0
+      }
+}
